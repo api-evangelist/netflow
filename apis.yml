@@ -1,93 +1,25 @@
-name: NetFlow API
-description: API for collecting, analyzing, and managing network flow data using NetFlow protocol
-image: https://example.com/netflow-logo.png
+aid: netflow
+name: NetFlow
+description: >-
+  NetFlow is a network protocol developed by Cisco for collecting IP traffic
+  information and monitoring network flow data. It provides network traffic
+  analytics for capacity planning, accounting, and security monitoring across
+  network infrastructure.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- network monitoring
-- flow data
-- traffic analysis
-- cisco
-- netflow
+  - Network Monitoring
+  - Flow Data
+  - Traffic Analysis
+  - Cisco
+url: https://raw.githubusercontent.com/api-evangelist/netflow/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2024-01-01'
-url: https://api.netflow.example.com/apis.json
-specificationVersion: '0.16'
-apis:
-- name: NetFlow Collection API
-  description: API for collecting and ingesting NetFlow v5, v9, and IPFIX flow records
-  image: https://example.com/netflow-collection.png
-  humanURL: https://netflow.example.com/docs/collection
-  baseURL: https://api.netflow.example.com/v1/collection
-  tags:
-  - flow collection
-  - ingestion
-  - ipfix
-  properties:
-  - type: Documentation
-    url: https://netflow.example.com/docs/collection
-  - type: OpenAPI
-    url: https://api.netflow.example.com/openapi/collection.yaml
-  - type: Authentication
-    url: https://netflow.example.com/docs/auth
-  contact:
-  - FN: API Support
-    email: support@netflow.example.com
-    url: https://netflow.example.com/support
-- name: NetFlow Analytics API
-  description: API for querying and analyzing collected flow data with filtering and aggregation
-  image: https://example.com/netflow-analytics.png
-  humanURL: https://netflow.example.com/docs/analytics
-  baseURL: https://api.netflow.example.com/v1/analytics
-  tags:
-  - analytics
-  - queries
-  - reporting
-  - aggregation
-  properties:
-  - type: Documentation
-    url: https://netflow.example.com/docs/analytics
-  - type: OpenAPI
-    url: https://api.netflow.example.com/openapi/analytics.yaml
-  - type: Postman Collection
-    url: https://netflow.example.com/postman/analytics.json
-  - type: Rate Limits
-    url: https://netflow.example.com/docs/rate-limits
-  contact:
-  - FN: API Support
-    email: support@netflow.example.com
-- name: NetFlow Exporter Management API
-  description: API for managing NetFlow exporters, collectors, and configuration
-  image: https://example.com/netflow-management.png
-  humanURL: https://netflow.example.com/docs/management
-  baseURL: https://api.netflow.example.com/v1/management
-  tags:
-  - configuration
-  - exporters
-  - collectors
-  - management
-  properties:
-  - type: Documentation
-    url: https://netflow.example.com/docs/management
-  - type: OpenAPI
-    url: https://api.netflow.example.com/openapi/management.yaml
-  - type: SDK
-    url: https://github.com/netflow/sdk-python
-  contact:
-  - FN: API Support
-    email: support@netflow.example.com
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
 common:
-- type: Getting Started
-  url: https://netflow.example.com/docs/getting-started
-- type: Authentication
-  url: https://netflow.example.com/docs/authentication
-- type: Status Page
-  url: https://status.netflow.example.com
-- type: Terms of Service
-  url: https://netflow.example.com/terms
-- type: Privacy Policy
-  url: https://netflow.example.com/privacy
-- type: GitHub Organization
-  url: https://github.com/netflow
+  - type: Documentation
+    url: https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-netflow/index.html
 maintainers:
-- FN: NetFlow API Team
-  email: api-team@netflow.example.com
-  url: https://netflow.example.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
