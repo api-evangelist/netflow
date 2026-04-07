@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Network Monitoring
-  - Flow Data
-  - Traffic Analysis
   - Cisco
+  - Flow Data
+  - Network Monitoring
+  - Traffic Analysis
 url: https://raw.githubusercontent.com/api-evangelist/netflow/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
