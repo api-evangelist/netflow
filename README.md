@@ -1,79 +1,34 @@
-# NetFlow API (netflow)
-API for collecting, analyzing, and managing network flow data using NetFlow protocol
+# NetFlow (netflow)
 
-**URL:** [Visit APIs.json URL](https://api.netflow.example.com/apis.json)
+NetFlow is a network protocol developed by Cisco for collecting IP traffic information and monitoring network flow data. It provides network traffic analytics for capacity planning, accounting, and security monitoring across network infrastructure.
+
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/netflow/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
 
 ## Tags:
 
- - network monitoring, flow data, traffic analysis, cisco, netflow
+ - Cisco, Flow Data, Network Monitoring, Traffic Analysis
 
 ## Timestamps
 
-- **Created:** 2024-01-01 
-- **Modified:** 2024-01-01 
+- **Created:** 2024-01-01
+- **Modified:** 2026-03-16
 
 ## APIs
 
-### NetFlow Collection API
-API for collecting and ingesting NetFlow v5, v9, and IPFIX flow records
-
-**Human URL:** [https://netflow.example.com/docs/collection](https://netflow.example.com/docs/collection)
-
-
-#### Tags:
-
- - flow collection, ingestion, ipfix
-
-#### Properties
-
-- [Documentation](https://netflow.example.com/docs/collection)
-- [OpenAPI](https://api.netflow.example.com/openapi/collection.yaml)
-- [Authentication](https://netflow.example.com/docs/auth)
-
-### NetFlow Analytics API
-API for querying and analyzing collected flow data with filtering and aggregation
-
-**Human URL:** [https://netflow.example.com/docs/analytics](https://netflow.example.com/docs/analytics)
-
-
-#### Tags:
-
- - analytics, queries, reporting, aggregation
-
-#### Properties
-
-- [Documentation](https://netflow.example.com/docs/analytics)
-- [OpenAPI](https://api.netflow.example.com/openapi/analytics.yaml)
-- [Postman Collection](https://netflow.example.com/postman/analytics.json)
-- [Rate Limits](https://netflow.example.com/docs/rate-limits)
-
-### NetFlow Exporter Management API
-API for managing NetFlow exporters, collectors, and configuration
-
-**Human URL:** [https://netflow.example.com/docs/management](https://netflow.example.com/docs/management)
-
-
-#### Tags:
-
- - configuration, exporters, collectors, management
-
-#### Properties
-
-- [Documentation](https://netflow.example.com/docs/management)
-- [OpenAPI](https://api.netflow.example.com/openapi/management.yaml)
-- [SDK](https://github.com/netflow/sdk-python)
+This index currently tracks NetFlow as a network protocol and concept. No public OpenAPI contract is published; vendor implementations expose telemetry via NetFlow v5/v9 and IPFIX exporters rather than a REST API.
 
 ## Common Properties
 
-- [Getting Started](https://netflow.example.com/docs/getting-started)
-- [Authentication](https://netflow.example.com/docs/authentication)
-- [Status Page](https://status.netflow.example.com)
-- [Terms of Service](https://netflow.example.com/terms)
-- [Privacy Policy](https://netflow.example.com/privacy)
-- [GitHub Organization](https://github.com/netflow)
+- [Documentation](https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-netflow/index.html)
 
 ## Maintainers
 
-**FN:** NetFlow API Team
+**FN:** Kin Lane
 
-**Email:** api-team@netflow.example.com
+**Email:** kin@apievangelist.com
